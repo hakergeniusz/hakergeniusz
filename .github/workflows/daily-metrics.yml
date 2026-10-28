@@ -26,10 +26,4 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      - name: Commit metrics
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add metrics.svg README.md
-          git commit -m "chore: update daily metrics $(date -u +%Y-%m-%d)" || exit 0
-          git push
+      # lowlighter/metrics commits metrics.svg itself with [Skip GitHub Action]
