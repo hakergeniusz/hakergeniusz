@@ -17,9 +17,12 @@ jobs:
       # Self-hosted metrics SVG — no external Vercel services.
       # output_action: none leaves the render in /metrics_renders; we post-process
       # and commit it ourselves below.
+      # GITHUB_TOKEN is an installation token scoped to this repo only — metrics
+      # would see just this one repository. Set METRICS_TOKEN (fine-grained PAT,
+      # "Public repositories" read-only) to count all public repos.
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: hakergeniusz
           template: classic
           base: header, activity, community, repositories, metadata
