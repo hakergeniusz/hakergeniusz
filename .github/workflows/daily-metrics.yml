@@ -1,8 +1,9 @@
 name: Daily Profile Metrics
 
+# Runs are dispatched from the local box by profile-metrics-dispatch.timer
+# (every 5h 59m — GitHub cron cannot express a 359-minute interval), or
+# manually via workflow_dispatch.
 on:
-  schedule:
-    - cron: '0 0 * * *'   # midnight UTC, once per day
   workflow_dispatch:
 
 permissions:
