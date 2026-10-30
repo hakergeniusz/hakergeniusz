@@ -25,10 +25,10 @@ I don't write code for your repo — I write prompts that do.
 <h3 align="center"><code>$ pi --tokens</code></h3>
 
 <p align="center">
-  <img src="token-heatmap.svg" width="700" alt="Pi coding agent token usage — daily heatmap for the last 12 months">
+  <img src="token-heatmap.svg" width="700" alt="Coding agent token usage — daily heatmap for the last 12 months">
 </p>
 
-<p align="center"><sub>Daily token usage from my <img src="pi-logo.svg" height="14" alt="Pi logo"> <a href="https://github.com/earendil-works/pi">Pi coding agent</a>, rendered from local telemetry.</sub></p>
+<p align="center"><sub>Daily token usage from my <img src="pi-logo.svg" height="14" alt="Pi logo"> <a href="https://github.com/earendil-works/pi">Pi coding agent</a>, <a href="https://claude.com/claude-code">Claude Code</a> and <a href="https://zcode.dev">ZCode</a>, rendered from local telemetry.</sub></p>
 
 <br/>
 
