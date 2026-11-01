@@ -12,9 +12,9 @@ permissions:
 
 jobs:
   metrics:
-    # lower-tier ARM runner; the prebuilt lowlighter/metrics image is amd64-only,
-    # so the image is built from source on the runner instead (use_prebuilt_image: no)
-    runs-on: ubuntu-24.04-arm
+    # x64 standard runner — the metrics image needs google-chrome-stable, which
+    # Google ships for amd64 only, so ARM runners cannot build it
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +33,6 @@ jobs:
           filename: metrics.svg
           output_format: svg
           output_action: none
-          use_prebuilt_image: no
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
