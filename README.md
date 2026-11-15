@@ -5,7 +5,7 @@
 <p><b>Proffesional <a href="https://www.youtube.com/watch?v=QDia3e12czc">tokenmaxxer</a>™</b></p>
 
 <p>
-I don't write code for your repo (don't expect me to write any code for your repo). I write prompts that do.
+I don't write code for your repo - I write prompts that do (don't expect me to write any code for your repo).
 </p>
 
 <p>
