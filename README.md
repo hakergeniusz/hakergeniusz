@@ -2,10 +2,10 @@
 
 <h1>hakergeniusz</h1>
 
-<p><b>Proffesional tokenmaxxer™</b></p>
+<p><b>Proffesional <a href="https://www.youtube.com/watch?v=QDia3e12czc">tokenmaxxer</a>™</b></p>
 
 <p>
-I don't write code for your repo — I write prompts that do.
+I don't write code for your repo (don't expect me to write any code for your repo). I write prompts that do.
 </p>
 
 <p>
@@ -28,7 +28,7 @@ I don't write code for your repo — I write prompts that do.
   <img src="token-heatmap.svg" width="700" alt="Coding agent token usage — daily heatmap for the last 12 months">
 </p>
 
-<p align="center"><sub>Daily token usage from my <img src="pi-logo.svg" height="14" alt="Pi logo"> <a href="https://github.com/earendil-works/pi">Pi coding agent</a>, <a href="https://claude.com/claude-code">Claude Code</a>, <a href="https://zcode.dev">ZCode</a>, <a href="https://github.com/QwenLM/qwen-code">Qwen Code</a> and <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>, rendered from local telemetry.</sub></p>
+<p align="center"><sub>Daily token usage from my <img src="pi-logo.svg" height="14" alt="Pi logo"> <a href="https://github.com/earendil-works/pi">Pi coding agent</a>, <a href="https://claude.com/claude-code">Claude Code</a>, <a href="https://zcode.z.ai">ZCode</a>, <a href="https://github.com/QwenLM/qwen-code">Qwen Code</a> and <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>, rendered from local telemetry.</sub></p>
 
 <br/>
 
