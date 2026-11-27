@@ -51,6 +51,10 @@ jobs:
               "", svg, flags=re.S,
           )
           print(f"stripped {n} sponsor field(s)")
+          # isocalendar stats come from GitHub's contributionCount (commits +
+          # PRs + issues + private contributions), not commits alone
+          svg = svg.replace("Commits streaks", "Contribution streaks")
+          svg = svg.replace("Commits per day", "Contributions per day")
           open("metrics.svg", "w", encoding="utf-8").write(svg)
           PY
 
